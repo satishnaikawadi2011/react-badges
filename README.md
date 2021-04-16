@@ -1,28 +1,61 @@
+
+<p align='center'>
+  <img alt='Logo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618564550/React%20Badges/react-badges_oarucd.gif' width=40%>
+</p>
+
 # react-badges
 
 > Customizable React Badges for your all kinds of Projects and WebSites.
 
-[![NPM](https://img.shields.io/npm/v/react-badges.svg)](https://www.npmjs.com/package/react-badges) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-badges">
+    <img alt= "NPM" src="https://img.shields.io/npm/v/react-badges.svg">
+  </a>
+  <a href="https://standardjs.com">
+    <img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
+  </a>
+</p>
 
 ## Install
 
 ```bash
-npm install --save react-badges
+npm i react-badges
 ```
+
+or
+
+```bash
+yarn add react-badges
 
 ## Usage
 
+If you wanted to use them as notification badges like
+
+<p align='center'>
+  <img alt='Notification Badges' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618565084/React%20Badges/not-badges_apwwes.png'>
+</p>
+
+you can use code like below
+
 ```tsx
-import React, { Component } from 'react'
+import React from 'react';
+import { Badge } from 'react-badges';
+import MailIcon from './MailIcon';
 
-import MyComponent from 'react-badges'
-import 'react-badges/dist/index.css'
+const App = () => {
+	return (
+			<Badge
+				content={4}
+				verticalAlignment="top"
+				horizontalAlignment="right"
+			>
+				<MailIcon />
+			</Badge>
+	);
+};
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+export default App;
+
 ```
 
 ### Properties

@@ -15,6 +15,7 @@ const App = () => {
 			>
 				<CartIcon />
 			</Badge>
+			<Badge content="Notification" contentColor="#ffffff" />
 		</div>
 	);
 };

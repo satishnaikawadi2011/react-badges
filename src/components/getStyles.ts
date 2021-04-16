@@ -21,7 +21,10 @@ export const getStyles = (props: BadgeProps) => {
 				props.horizontalAlignment === 'right' ? -3 :
 				'auto',
 		backgroundColor: props.bgColor,
-		color: pickTextColorBasedOnBgColorAdvanced(props.bgColor, '#ffffff', '#000000')
+		color:
+
+				props.contentColor ? props.contentColor :
+				pickTextColorBasedOnBgColorAdvanced(props.bgColor, '#ffffff', '#000000')
 	};
 	return badgeStyles;
 };
