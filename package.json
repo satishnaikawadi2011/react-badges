@@ -4,13 +4,30 @@
 	"description": "Customizable and Reusable React Badge component for your all kinds of Projects and WebSites.",
 	"author": "satishnaikawadi2011",
 	"license": "MIT",
-	"repository": "satishnaikawadi2011/react-badges",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/satishnaikawadi2011/react-badges"
+	},
+	"keywords": [
+		"react",
+		"react-component",
+		"badge",
+		"notification",
+		"custom",
+		"reusable",
+		"notification-badge",
+		"chip"
+	],
 	"main": "dist/index.js",
 	"module": "dist/index.modern.js",
 	"source": "src/index.tsx",
 	"engines": {
 		"node": ">=10"
 	},
+	"bugs": {
+		"url": "https://github.com/satishnaikawadi2011/react-badges/issues"
+	},
+	"homepage": "https://github.com/satishnaikawadi2011/react-badges",
 	"scripts": {
 		"build": "microbundle-crl --no-compress --format modern,cjs",
 		"start": "microbundle-crl watch --no-compress --format modern,cjs",
