@@ -1,10 +1,10 @@
 {
-	"name": "react-lassan",
+	"name": "react-badges",
 	"version": "1.0.0",
-	"description": "Customizable React lassan for your all kinds of Projects and WebSites.",
+	"description": "Customizable and Reusable React Badge component for your all kinds of Projects and WebSites.",
 	"author": "satishnaikawadi2011",
 	"license": "MIT",
-	"repository": "satishnaikawadi2011/react-lassan",
+	"repository": "satishnaikawadi2011/react-badges",
 	"main": "dist/index.js",
 	"module": "dist/index.modern.js",
 	"source": "src/index.tsx",

@@ -16,13 +16,13 @@ export interface BadgeProps {
 const Badge: React.FC<BadgeProps & React.DetailedHTMLProps<React.HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>> = ({
 	children,
 	content,
-	bgColor = 'teal',
+	bgColor = 'red',
 	contentColor,
-	max,
+	max = 99,
 	style,
 	className,
 	verticalAlignment = 'top',
-	horizontalAlignment = 'left',
+	horizontalAlignment = 'right',
 	hideZero = false,
 	...props
 }) => {
