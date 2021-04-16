@@ -16,6 +16,11 @@
   </a>
 </p>
 
+
+<p align='center'>
+  <img alt='Code Demo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618568417/React%20Badges/carbon_2_uz24gr.png'>
+</p>
+
 ## Install
 
 ```bash
