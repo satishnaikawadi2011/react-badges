@@ -12,11 +12,14 @@
 		"react",
 		"react-component",
 		"badge",
+		"react-badge",
 		"notification",
 		"custom",
 		"reusable",
 		"notification-badge",
-		"chip"
+		"chip",
+		"react-chip",
+		"react-notification-badge"
 	],
 	"main": "dist/index.js",
 	"module": "dist/index.modern.js",
