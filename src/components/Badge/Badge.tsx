@@ -1,6 +1,7 @@
 import React from 'react';
 import { getStyles } from '../getStyles';
-import styles from './badge.module.css';
+import { containerStyles, rawBadgeStyles } from './styles';
+// import './styles.css';
 
 export interface BadgeProps {
 	content: string | number;
@@ -47,12 +48,13 @@ const Badge: React.FC<BadgeProps & React.DetailedHTMLProps<React.HTMLAttributes<
 	});
 	const hide = hideZero && modifiedContent === 0;
 	return (
-		<div className={styles.container}>
+		<div className={`container`} style={containerStyles}>
 			<div>{children}</div>
 			{!hide && (
 				<span
-					className={`${className} ${styles.badge}`}
+					className={`${className} badge`}
 					style={{
+						...rawBadgeStyles,
 						...badgeStyles,
 						...style
 					}}
