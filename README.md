@@ -18,7 +18,7 @@
 
 
 <p align='center'>
-  <img alt='Code Demo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618568417/React%20Badges/carbon_2_uz24gr.png'>
+  <img alt='Code Demo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618607854/React%20Badges/carbon_2_iithbj.png'>
 </p>
 
 - **Customizable** - Easy to customize background color, color and more.

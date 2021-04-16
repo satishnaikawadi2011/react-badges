@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge } from 'react-badges';
+import { Badge } from 'customizable-react-badges';
 import CartIcon from './CartIcon';
 
 const App = () => {
