@@ -5,7 +5,7 @@
 
 # react-badges
 
-> Customizable React Badges for your all kinds of Projects and WebSites.
+> Customizable and Reusable React Badge component for your all kinds of Projects and WebSites.
 
 <p align="center">
   <a href="https://www.npmjs.com/package/react-badges">
