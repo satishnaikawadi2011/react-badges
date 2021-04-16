@@ -1,6 +1,6 @@
 
 <p align='center'>
-  <img alt='Logo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618564550/React%20Badges/react-badges_oarucd.gif' width=40%>
+  <img alt='Logo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618564550/React%20Badges/react-badges_oarucd.gif'>
 </p>
 
 # react-badges
@@ -31,9 +31,7 @@ yarn add react-badges
 
 If you wanted to use them as notification badges like
 
-<p align='center'>
-  <img alt='Notification Badges' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618565084/React%20Badges/not-badges_apwwes.png'>
-</p>
+![Notification Badges](https://res.cloudinary.com/dg2zkumuc/image/upload/v1618565084/React%20Badges/not-badges_apwwes.png)
 
 you can use code like below
 
