@@ -21,16 +21,22 @@
   <img alt='Code Demo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618568417/React%20Badges/carbon_2_uz24gr.png'>
 </p>
 
+- **Customizable** - Easy to customize background color, color and more.
+- **Notification Badge** - Easy to use with any icon as a notification badge.
+- **Reasonable package size** - <2.8 kB gzipped.
+- **Chip** - Pass content as string and use it as Chip.
+- **It Just Works** - Sensible default styling. Uses inline styles, so no need to import a separate css file.
+
 ## Install
 
 ```bash
-npm i react-badges
+npm i customizable-react-badges
 ```
 
 or
 
 ```bash
-yarn add react-badges
+yarn add customizable-react-badges
 ```
 ## Usage
 
@@ -44,7 +50,7 @@ you can use code like below
 
 ```tsx
 import React from 'react';
-import { Badge } from 'react-badges';
+import { Badge } from 'customizable-react-badges';
 import MailIcon from './MailIcon';
 
 const App = () => {
@@ -63,17 +69,17 @@ export default App;
 ```
 ### OR
 
-If you wanter to use them as regular simple badges like
+If you wanted to use them as regular simple badges like
 
 <p align='center'>
   <img alt='Regular Badges' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618565814/React%20Badges/str-badges_pi9jmq.png'>
 </p>
 
-you can use cod like below
+you can use code like below
 
 ```tsx
 import React from 'react';
-import { Badge } from 'react-badges';
+import { Badge } from 'customizable-react-badges';
 
 const App = () => {
 	return (
