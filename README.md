@@ -3,9 +3,11 @@
   <img alt='Logo' src='https://res.cloudinary.com/dg2zkumuc/image/upload/v1618564550/React%20Badges/react-badges_oarucd.gif'>
 </p>
 
-# react-badges
+# customizable-react-badges
 
 > Customizable and Reusable React Badge component for your all kinds of Projects and WebSites.
+
+For thorough docs , click [here](https://react-badges-docs.vercel.app/)
 
 <p align="center">
   <a href="https://www.npmjs.com/package/react-badges">
